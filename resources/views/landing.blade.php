@@ -9,7 +9,7 @@
             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900"></div>
             <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-400/20 via-transparent to-transparent"></div>
         </div>
-        
+
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight fade-in">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
             <a href="#about" class="text-white">
                 <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -44,15 +44,15 @@
                     We've created a solution that helps businesses navigate the complexities of the digital landscape with ease and confidence.
                 </p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div class="fade-in" style="transition-delay: 0.3s">
                     <div class="rounded-lg overflow-hidden shadow-xl">
-                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                             alt="Team collaboration" class="w-full h-auto">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                            alt="Team collaboration" class="w-full h-auto">
                     </div>
                 </div>
-                
+
                 <div>
                     <div class="space-y-6">
                         <div class="fade-in" style="transition-delay: 0.4s">
@@ -61,7 +61,7 @@
                                 To empower businesses with intuitive digital tools that simplify complex processes and foster growth in an ever-evolving digital landscape.
                             </p>
                         </div>
-                        
+
                         <div class="fade-in" style="transition-delay: 0.5s">
                             <h3 class="text-2xl font-semibold text-gray-900 mb-3">Why Choose Us?</h3>
                             <ul class="space-y-2 text-gray-600">
@@ -100,7 +100,7 @@
                     Our platform is packed with features designed to help you succeed in today's digital world.
                 </p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Feature 1 -->
                 <div class="fade-in" style="transition-delay: 0.3s">
@@ -116,7 +116,7 @@
                         </x-slot>
                     </x-feature-card>
                 </div>
-                
+
                 <!-- Feature 2 -->
                 <div class="fade-in" style="transition-delay: 0.4s">
                     <x-feature-card>
@@ -131,7 +131,7 @@
                         </x-slot>
                     </x-feature-card>
                 </div>
-                
+
                 <!-- Feature 3 -->
                 <div class="fade-in" style="transition-delay: 0.5s">
                     <x-feature-card>
@@ -146,7 +146,7 @@
                         </x-slot>
                     </x-feature-card>
                 </div>
-                
+
                 <!-- Feature 4 -->
                 <div class="fade-in" style="transition-delay: 0.6s">
                     <x-feature-card>
@@ -161,7 +161,7 @@
                         </x-slot>
                     </x-feature-card>
                 </div>
-                
+
                 <!-- Feature 5 -->
                 <div class="fade-in" style="transition-delay: 0.7s">
                     <x-feature-card>
@@ -176,7 +176,7 @@
                         </x-slot>
                     </x-feature-card>
                 </div>
-                
+
                 <!-- Feature 6 -->
                 <div class="fade-in" style="transition-delay: 0.8s">
                     <x-feature-card>
@@ -204,39 +204,36 @@
                     Don't just take our word for it — hear from some of our satisfied customers.
                 </p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Testimonial 1 -->
                 <div class="fade-in" style="transition-delay: 0.3s">
-                    <x-testimonial-card 
-                        name="Sarah Johnson" 
+                    <x-testimonial-card
+                        name="Sarah Johnson"
                         position="Marketing Director"
                         rating="5"
                         image="https://randomuser.me/api/portraits/women/45.jpg"
-                        quote="BlueWave transformed our marketing operations. The intuitive interface and powerful analytics have significantly improved our campaign effectiveness. Their support team is also exceptional!"
-                    />
+                        quote="BlueWave transformed our marketing operations. The intuitive interface and powerful analytics have significantly improved our campaign effectiveness. Their support team is also exceptional!" />
                 </div>
-                
+
                 <!-- Testimonial 2 -->
                 <div class="fade-in" style="transition-delay: 0.4s">
-                    <x-testimonial-card 
-                        name="David Chen" 
+                    <x-testimonial-card
+                        name="David Chen"
                         position="CTO, TechSolutions Inc"
                         rating="4"
                         image="https://randomuser.me/api/portraits/men/32.jpg"
-                        quote="As a tech company, we have high standards for the tools we use. BlueWave exceeded our expectations with its robust security features and seamless cloud integration capabilities."
-                    />
+                        quote="As a tech company, we have high standards for the tools we use. BlueWave exceeded our expectations with its robust security features and seamless cloud integration capabilities." />
                 </div>
-                
+
                 <!-- Testimonial 3 -->
                 <div class="fade-in" style="transition-delay: 0.5s">
-                    <x-testimonial-card 
-                        name="Emily Rodriguez" 
+                    <x-testimonial-card
+                        name="Emily Rodriguez"
                         position="Small Business Owner"
                         rating="5"
                         image="https://randomuser.me/api/portraits/women/28.jpg"
-                        quote="BlueWave has been a game-changer for my small business. It's affordable, easy to use, and has features that I previously thought were only available to larger enterprises."
-                    />
+                        quote="BlueWave has been a game-changer for my small business. It's affordable, easy to use, and has features that I previously thought were only available to larger enterprises." />
                 </div>
             </div>
         </div>

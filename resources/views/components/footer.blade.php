@@ -10,7 +10,7 @@
                     Modern solutions for the modern world. We help you navigate the digital landscape with ease.
                 </p>
             </div>
-            
+
             <!-- Quick Links -->
             <div class="col-span-1">
                 <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
@@ -21,7 +21,7 @@
                     <li><a href="#contact" class="text-blue-100 hover:text-blue-300 transition-colors duration-300">Contact</a></li>
                 </ul>
             </div>
-            
+
             <!-- Legal -->
             <div class="col-span-1">
                 <h3 class="text-lg font-semibold mb-4">Legal</h3>
@@ -31,7 +31,7 @@
                     <li><a href="#" class="text-blue-100 hover:text-blue-300 transition-colors duration-300">Cookie Policy</a></li>
                 </ul>
             </div>
-            
+
             <!-- Social -->
             <div class="col-span-1">
                 <h3 class="text-lg font-semibold mb-4">Connect With Us</h3>
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200 text-sm">
             <p>&copy; {{ date('Y') }} BlueWave. All rights reserved.</p>
         </div>

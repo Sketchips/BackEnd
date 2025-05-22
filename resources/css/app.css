@@ -7,19 +7,19 @@
     .hero-gradient {
         @apply bg-gradient-to-r from-blue-800 to-blue-600;
     }
-    
+
     .btn-primary {
         @apply bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-md transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1;
     }
-    
+
     .btn-secondary {
         @apply bg-white text-blue-600 hover:bg-blue-50 py-2 px-6 rounded-md transition-colors duration-300 shadow-lg hover:shadow-xl;
     }
-    
+
     .section-heading {
         @apply text-3xl font-bold text-gray-900 mb-4;
     }
-    
+
     .section-subheading {
         @apply text-xl text-gray-600;
     }
