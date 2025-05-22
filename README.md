@@ -23,6 +23,7 @@ Ini adalah mesin untuk aplikasi tiketing
    ```bash
    composer install
    ```
+   buat salinan .env.example dan rename jadi .env
 4. Jalankan migrasi:
    ```bash
    php artisan migrate
