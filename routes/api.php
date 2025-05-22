@@ -7,6 +7,7 @@ use App\Http\Controllers\AddProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\TiketController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\TransactionController;
 
 
 /*
@@ -80,3 +81,8 @@ Route::post('/products', [AddProductController::class, 'store']); // POST produk
 Route::get('/products/{id}', [AddProductController::class, 'show']); // GET produk by ID
 Route::put('/products/{id}', [AddProductController::class, 'update']); // PUT update produk
 Route::delete('/products/{id}', [AddProductController::class, 'destroy']); // DELETE produk
+
+// QRIS Payment routes with Midtrans
+Route::post('/payment/create-transaction', [TransactionController::class, 'createTransaction']);
+Route::post('/payment/notification', [TransactionController::class, 'notificationHandler']);
+Route::get('/payment/status/{id}', [TransactionController::class, 'getTransactionStatus']);

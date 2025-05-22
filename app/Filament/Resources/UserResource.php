@@ -36,6 +36,13 @@ class UserResource extends Resource
                     ->email()
                     ->required()
                     ->maxLength(255),
+                Forms\Components\Select::make('role')
+                    ->options([
+                        'admin' => 'Admin',
+                        'user' => 'User',
+                    ])
+                    ->default('user')
+                    ->required(),
                 TextInput::make('password')
                     ->password()
                     ->required()
@@ -53,6 +60,14 @@ class UserResource extends Resource
                     ->label('Nama')
                     ->sortable(),
                 TextColumn::make('email')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('role')
+                    ->badge()
+                    ->color(fn(string $state): string => match ($state) {
+                        'admin' => 'success',
+                        'user' => 'info',
+                    })
                     ->searchable()
                     ->sortable(),
                 TextColumn::make('created_at')
