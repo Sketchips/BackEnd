@@ -27,11 +27,11 @@ class OrderItem extends Model
 
     public function product()
     {
-        return $this->belongsTo(Addproduct::class, 'product_id');
+        return $this->belongsTo(Addproduct::class, 'product_id')->withTrashed();
     }
 
     public function ticket()
     {
-        return $this->belongsTo(Tiket::class, 'ticket_id');
+        return $this->belongsTo(Tiket::class, 'ticket_id')->withTrashed();
     }
 }
