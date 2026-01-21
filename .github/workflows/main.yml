@@ -51,5 +51,6 @@ jobs:
           script: |
             cd ${{ secrets.APP_PATH }}
             git pull origin main
+            chmod +x build.sh
             ./build.sh
         
