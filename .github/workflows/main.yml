@@ -50,6 +50,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ${{ secrets.APP_PATH }}
+            git fetch --all
+            git reset --hard origin/main
             chmod +x build.sh
             ./build.sh
         
