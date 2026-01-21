@@ -13,7 +13,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight fade-in">
-                    Simplify Your Digital <span class="text-blue-300">Journey</span>
+                    Hidup Jokowi! <span class="text-blue-300">Journey</span>
                 </h1>
                 <p class="text-xl text-blue-100 mb-8 fade-in" style="transition-delay: 0.2s">
                     Discover the seamless way to transform your business with our intuitive platform designed for the modern world.
