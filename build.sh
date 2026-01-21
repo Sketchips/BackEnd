@@ -1,7 +1,5 @@
 echo "🚀 Starting deployment..."
 
-git pull origin main
-
 echo "📦 Installing Dependencies..."
 composer install --no-dev --optimize-autoloader
 npm ci
